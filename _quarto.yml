@@ -17,19 +17,11 @@ website:
         text: Home
       - href: content/our-story.qmd
         text: Our story
-      - href: schedule.qmd
+      - href: content/schedule.qmd
         text: Schedule
-      - href: travel.qmd
+      - href: content/travel.qmd
         text: Travel
-      - href: photos.qmd
-        text: Photos
-      - href: registry.qmd
-        text: Registry
-      - href: faqs.qmd
-        text: FAQs
-      - href: things-to-do.qmd
-        text: Things To Do
-      - href: rsvp.qmd
+      - href: content/rsvp.qmd
         text: RSVP
 
 format:

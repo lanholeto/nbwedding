@@ -1,0 +1,81 @@
+---
+title: "Travel & Where to Stay"
+back-to-top-navigation: false
+format:
+  html:
+    page-layout: full
+---
+
+::::::::::: travel-page
+::: travel-intro
+Everything you need to know to get to Wolfville — and where to rest your head once you're here.
+:::
+
+## Getting There
+
+::: travel-section
+**By Air**
+
+The closest airport is **Halifax Stanfield International Airport (YHZ)**, about a 50-minute drive from Wolfville, Nova Scotia. Most major Canadian carriers fly into Halifax, with direct connections from Toronto, Montreal, and several U.S. cities.
+
+**By Car**
+
+If you're driving, Wolfville sits just off **Highway 101**, roughly an hour from Halifax. We'd recommend renting a car at the airport — it's the easiest way to get around the valley for the wedding weekend and beyond.
+
+**Shuttle**
+
+We're arranging a shuttle between the recommended hotels and the venue for the day of the wedding — details and pickup times will be added here closer to the date. No need to worry about driving (or parking!) that evening.
+:::
+
+## Where to Stay
+
+We've pulled together a few options at different price points, all within a short drive of the venue. We recommend booking early — Wolfville is a small town and rooms fill up fast in the summer!
+
+::::::: hotel-grid
+::: hotel-card
+#### The Old Orchard Inn
+
+*\~10 minutes from the venue*
+
+A comfortable, mid-range option just outside town, with an on-site restaurant and pool. Popular with wedding guests — mention "Nicoletta & Burc" for a small group rate.
+
+[Book Now](#){.btn-dark target="_blank"}
+:::
+
+::: hotel-card
+#### Blomidon Inn
+
+*\~5 minutes from the venue*
+
+A charming heritage inn right in Wolfville, walking distance to shops and restaurants downtown. Boutique-style rooms, a bit more upscale.
+
+[Book Now](#){.btn-dark target="_blank"}
+:::
+
+::: hotel-card
+#### Tattingstone Inn
+
+*\~7 minutes from the venue*
+
+A cozy bed & breakfast with a garden courtyard — a quieter, more intimate option for those who prefer a smaller property.
+
+[Book Now](#){.btn-dark target="_blank"}
+:::
+
+::: hotel-card
+#### Local Airbnbs
+
+*Varies*
+
+For larger groups or families traveling together, the Wolfville and Grand Pré area has a wide range of Airbnb houses and cottages, many with vineyard views.
+
+[Browse Options](#){.btn-dark target="_blank"}
+:::
+:::::::
+
+## Getting Around
+
+::: travel-section
+Wolfville is a small, walkable town, but the wedding venue is a short drive outside the downtown core. We'd suggest renting a car for the weekend, though we're also happy to help coordinate carpools — just reach out if you'd like to be connected with other guests staying nearby.
+:::
+:::::::::::

@@ -1,0 +1,33 @@
+---
+title: "RSVP"
+back-to-top-navigation: false
+format:
+  html:
+    page-layout: full
+---
+
+::::: rsvp-page
+::: rsvp-intro
+We can't wait to celebrate with you.
+:::
+
+<p class="rsvp-note">
+
+Please RSVP by <strong>June 1, 2027</strong> so we can finalize seating and catering. If you have any questions in the meantime, reach out any time — details on our <a href="content/faqs.qmd">FAQs</a> page.
+
+</p>
+
+::: rsvp-form-wrapper
+<iframe src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true" loading="lazy">
+
+Loading…
+
+</iframe>
+:::
+
+<p class="rsvp-fallback">
+
+Having trouble with the form above? You can also <a href="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform" target="_blank">open it in a new tab</a>.
+
+</p>
+:::::
