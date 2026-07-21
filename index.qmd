@@ -1,0 +1,17 @@
+---
+title: "Nicoletta & Burc"
+back-to-top-navigation: false
+format:
+  html:
+    page-layout: full
+---
+
+::: hero-banner
+![](images/main3.jpg){fig-align="center"}
+:::
+
+::: save-the-date
+SAVE THE DATE
+
+July 15, 2027 · Wolfville, NS, Canada
+:::

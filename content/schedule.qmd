@@ -1,0 +1,30 @@
+---
+title: "Schedule"
+back-to-top-navigation: false
+format:
+  html:
+    page-layout: full
+---
+
+::: {.schedule-page}
+
+<span class="schedule-date">THURSDAY, JULY 15, 2027</span>
+
+### Join us to celebrate this special day with family and friends.
+
+<span class="schedule-time">5:30 pm</span>
+
+<span class="schedule-venue">Lightfoot & Wolfville Vineyards</span>
+
+[11143 Nova Scotia Trunk 1, Wolfville, NS B4P 2R2, Canada](https://maps.google.com/?q=Lightfoot+%26+Wolfville+Vineyards+Wolfville+NS){.schedule-address}
+
+Wear what makes you feel comfortable — think garden party, not formalwear.
+
+After the ceremony there will be a cocktail hour with light bites, followed by dinner among the vines. At the end of the night the celebration continues with dancing and drinks under the stars.
+
+::: {.schedule-buttons}
+[Map](https://maps.google.com/?q=Lightfoot+%26+Wolfville+Vineyards+Wolfville+NS){.btn-dark target="_blank"}
+[Add to Calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Nicoletta+%26+Burc%27s+Wedding&dates=20270715T173000/20270716T010000&details=Join+us+to+celebrate+at+Lightfoot+%26+Wolfville+Vineyards&location=Lightfoot+%26+Wolfville+Vineyards%2C+Wolfville%2C+NS){.btn-dark target="_blank"}
+:::
+
+:::

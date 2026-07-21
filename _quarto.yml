@@ -15,8 +15,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: wedding-party.qmd
-        text: Wedding Party
+      - href: content/our-story.qmd
+        text: Our story
       - href: schedule.qmd
         text: Schedule
       - href: travel.qmd
