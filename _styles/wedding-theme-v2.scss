@@ -1,0 +1,224 @@
+/*-- scss:defaults --*/
+
+// ---------------------------------------------------------------
+// Google Fonts import
+// Sans-serif -> Montserrat  (nav, body, headings - modern/clean)
+// Script     -> Sacramento  (couple names, accent text only)
+// ---------------------------------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Sacramento&display=swap');
+
+$sans-font:   "Montserrat", "Helvetica Neue", sans-serif;
+$script-font: "Sacramento", cursive;
+
+// Color palette (clean white / soft charcoal - more minimal than v1)
+$cream:      #ffffff;
+$off-white:  #faf9f7;
+$charcoal:   #1f1f1f;
+$muted-gray: #6b6b6b;
+
+$body-bg:    $cream;
+$body-color: $charcoal;
+$link-color: $charcoal;
+
+$font-family-sans-serif: $sans-font;
+$font-family-serif: $sans-font;
+$font-family-monospace: monospace;
+
+$navbar-bg: $cream;
+$navbar-fg: $charcoal;
+
+/*-- scss:rules --*/
+
+body {
+  font-family: $sans-font;
+  font-weight: 300;
+  background-color: $body-bg;
+  color: $charcoal;
+  letter-spacing: 0.01em;
+}
+
+// ---------------------------------------------------------------
+// Site title / logo — uppercase, wide-tracked, light weight
+// (this is the "ABOUT" style font applied to the main title)
+// ---------------------------------------------------------------
+.navbar-title,
+.navbar-brand {
+  font-family: $sans-font;
+  font-weight: 400;
+  font-size: 1.6rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: $charcoal;
+}
+
+// Optional thin script accent under the main title/logo,
+// e.g. a tagline like "event planning" in the reference site.
+.navbar-tagline {
+  display: block;
+  font-family: $script-font;
+  font-size: 1.3rem;
+  letter-spacing: 0.02em;
+  color: $muted-gray;
+  margin-top: -0.3rem;
+}
+
+// ---------------------------------------------------------------
+// Nav menu items (Home / Wedding Party / Schedule / etc.)
+// ---------------------------------------------------------------
+.navbar {
+  background-color: $cream !important;
+  border-bottom: 1px solid #eee;
+  padding-top: 1.75rem;
+  padding-bottom: 1.5rem;
+
+  .navbar-nav {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .nav-link {
+    font-family: $sans-font;
+    font-weight: 400;
+    font-size: 0.8rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: $charcoal !important;
+    padding: 0 1.1rem;
+
+    &:hover {
+      color: $muted-gray !important;
+      text-decoration: none;
+    }
+  }
+}
+
+// ---------------------------------------------------------------
+// Hero image section (TRUE full-bleed photo — breaks out of the
+// centered content column to span the entire browser width)
+// ---------------------------------------------------------------
+.hero-banner {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+  aspect-ratio: 2.4 / 1;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+#quarto-content,
+main.content {
+  overflow-x: visible;
+}
+
+// ---------------------------------------------------------------
+// "John Mark Foster / and / Cecily Andrews Calhoun" block
+// Names now in script font as an accent against the modern sans body
+// ---------------------------------------------------------------
+.couple-names {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: $off-white;
+
+  .name {
+    font-family: $script-font;
+    font-size: 3.2rem;
+    color: $charcoal;
+    line-height: 1.2;
+  }
+
+  .and {
+    font-family: $sans-font;
+    font-weight: 300;
+    font-size: 0.75rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: $muted-gray;
+    margin: 0.9rem 0;
+  }
+}
+
+// ---------------------------------------------------------------
+// "SAVE THE DATE / July 15, 2027 · Wolfville, NS" block
+// ---------------------------------------------------------------
+.save-the-date {
+  text-align: center;
+  padding: 3rem 1rem 4rem;
+  background-color: $cream;
+
+  p {
+    font-family: $sans-font;
+  }
+
+  p:nth-of-type(1) {
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: $charcoal;
+    margin-bottom: 1rem;
+  }
+
+  p:nth-of-type(2) {
+    font-weight: 300;
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+    color: $muted-gray;
+    text-transform: uppercase;
+  }
+}
+
+// ---------------------------------------------------------------
+// General headings — modern uppercase sans, same family as the nav
+// ---------------------------------------------------------------
+h1, h2, h3 {
+  font-family: $sans-font;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $charcoal;
+}
+
+// Page title only (e.g. "Nicoletta & Burc") — cursive accent,
+// kept separate from h1/h2/h3 above so section headings elsewhere
+// stay uppercase sans while the couple's names read as script.
+h1.title {
+  font-family: $script-font;
+  font-weight: 400;
+  font-size: 3.5rem;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  text-align: center;
+  color: $charcoal;
+}
+
+p, li {
+  font-family: $sans-font;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+a {
+  color: $charcoal;
+  &:hover {
+    color: $muted-gray;
+  }
+}
+
+// Footer text - keep light and understated
+.page-footer {
+  font-family: $sans-font;
+  font-weight: 300;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  color: $muted-gray;
+}

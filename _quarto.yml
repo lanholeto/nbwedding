@@ -3,78 +3,43 @@ project:
   output-dir: _site
 
 website:
-  title: "Faraone wedding"
+  title: ""
   site-url: https://lanholeto.github.io/nbwedding/
   back-to-top-navigation: true
   page-navigation: true
   search: true
-  
+
   navbar:
     search: true
-    title: false
-    logo: images/faraone-logo.jpg
-    background: "#FFF"
-    logo-alt: "Faraone Research Group"
+    background: "#f4f1ec"
     left:
       - href: index.qmd
         text: Home
-
-  sidebar:
-    style: "floating"
-    search: true
-    collapse-level: 99
-    contents:
-      - section: "Welcome"
-        contents:
-          - content/general_welcome.qmd
-      - section: "Lab Protocols"
-        contents: 
-          - section: "General Procedures"
-            contents: content/01-general/*.qmd
-          - section: "Equipment SOP"
-            contents: content/02-equipments/*.qmd
-          - section: "Artificial Tick Feeding"
-            contents: content/03-artificial-tick-feeding/*.qmd
-          - section: "Tick Pathogen Testing"
-            contents: content/04-dna-extraction/*.qmd
-
-  page-footer: 
-    background: "#F6F5F3"
-    left: |
-      Faraone Lab, [Acadia University](https://www.acadiau.ca), Department of Chemistry (117 Elliott Hall)<br>
-      6 University Avenue - Wolfville, Nova Scotia B4P 2R6 Canada <br>
-      Acadia University is located in Mi'kma'ki, the ancestral and unceded territory of the Mi’kmaw nation.
-    center: |
-      © 2026 &middot; Made with {{< fa brands r-project >}} and 
-      [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/) by Luis Anholeto
-    right:
-      - icon: github
-        href: https://github.com/faraonelab/faraonelab.github.io.git
+      - href: wedding-party.qmd
+        text: Wedding Party
+      - href: schedule.qmd
+        text: Schedule
+      - href: travel.qmd
+        text: Travel
+      - href: photos.qmd
+        text: Photos
+      - href: registry.qmd
+        text: Registry
+      - href: faqs.qmd
+        text: FAQs
+      - href: things-to-do.qmd
+        text: Things To Do
+      - href: rsvp.qmd
+        text: RSVP
 
 format:
   html:
-    theme: 
-      - yeti
-      - styles/custom.scss
-    mainfont: "Nunito Sans"
-    toc: true
-    toc-location: right
+    theme:
+      - _styles/wedding-theme-v2.scss
+    toc: false
     page-layout: full
-    grid:
-      sidebar-width: 250px
-      body-width: 1350px
-      margin-width: 160px
-      gutter-width: 1.5rem
     link-external-newwindow: true
     smooth-scroll: true
-    format-links: [pdf]
-
-  pdf:
-    documentclass: scrreport
-    papersize: letter
-    toc: true
-    number-sections: true
-    colorlinks: true
 
 execute:
   freeze: auto

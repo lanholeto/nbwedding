@@ -1,0 +1,188 @@
+/*-- scss:defaults --*/
+
+// ---------------------------------------------------------------
+// Google Fonts import
+// Script font  -> Alex Brush   (couple's name / title, script accents)
+// Serif font   -> EB Garamond  (nav, body copy, "and")
+// ---------------------------------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+$script-font: "Alex Brush", cursive;
+$serif-font:  "EB Garamond", "Georgia", serif;
+
+// Color palette (soft cream / charcoal, matches the reference site)
+$cream:      #f4f1ec;
+$charcoal:   #2e2e2e;
+$muted-gray: #4a4a4a;
+
+$body-bg:    $cream;
+$body-color: $charcoal;
+$link-color: $charcoal;
+
+$font-family-sans-serif: $serif-font;
+$font-family-serif: $serif-font;
+$font-family-monospace: monospace;
+
+$navbar-bg: $cream;
+$navbar-fg: $charcoal;
+
+$presentation-heading-font: $script-font;
+
+/*-- scss:rules --*/
+
+body {
+  font-family: $serif-font;
+  background-color: $body-bg;
+  color: $charcoal;
+  letter-spacing: 0.02em;
+}
+
+// ---------------------------------------------------------------
+// Site title / couple names in the navbar
+// ---------------------------------------------------------------
+.navbar-title,
+.navbar-brand {
+  font-family: $script-font;
+  font-size: 2.4rem;
+  color: $charcoal;
+  letter-spacing: 0.01em;
+}
+
+// ---------------------------------------------------------------
+// Nav menu items (Home / Wedding Party / Schedule / etc.)
+// ---------------------------------------------------------------
+.navbar {
+  background-color: $cream !important;
+  border-bottom: none;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+
+  .navbar-nav {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .nav-link {
+    font-family: $serif-font;
+    font-size: 1.05rem;
+    letter-spacing: 0.06em;
+    color: $charcoal !important;
+    text-transform: capitalize;
+    padding: 0 1rem;
+
+    &:hover {
+      color: $muted-gray !important;
+      text-decoration: none;
+      border-bottom: 1px solid $charcoal;
+    }
+  }
+}
+
+// ---------------------------------------------------------------
+// Hero image section (TRUE full-bleed photo — breaks out of the
+// centered content column to span the entire browser width)
+// ---------------------------------------------------------------
+.hero-banner {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+  aspect-ratio: 2.4 / 1;   // matches the 2400x1000 crop
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+// Quarto wraps page content in a max-width container by default.
+// Prevent that constraint from clipping the 100vw hero trick.
+#quarto-content,
+main.content {
+  overflow-x: visible;
+}
+
+// ---------------------------------------------------------------
+// names block
+// ---------------------------------------------------------------
+.couple-names {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: $cream;
+
+  .name {
+    font-family: $script-font;
+    font-size: 3rem;
+    color: $charcoal;
+    line-height: 1.2;
+  }
+
+  .and {
+    font-family: $serif-font;
+    font-size: 0.9rem;
+    letter-spacing: 0.15em;
+    text-transform: lowercase;
+    color: $muted-gray;
+    margin: 0.75rem 0;
+  }
+}
+
+// ---------------------------------------------------------------
+// "SAVE THE DATE / July 15, 2027 · Wolfville, NS" block
+// ---------------------------------------------------------------
+.save-the-date {
+  text-align: center;
+  padding: 3rem 1rem 4rem;
+  background-color: $cream;
+
+  p:first-of-type,
+  p {
+    font-family: $serif-font;
+  }
+
+  p:nth-of-type(1) {
+    font-size: 1rem;
+    letter-spacing: 0.35em;   // wide tracking for "SAVE THE DATE"
+    text-transform: uppercase;
+    color: $muted-gray;
+    margin-bottom: 0.75rem;
+  }
+
+  p:nth-of-type(2) {
+    font-size: 1.4rem;
+    color: $charcoal;
+    letter-spacing: 0.03em;
+  }
+}
+
+// ---------------------------------------------------------------
+// General headings
+// ---------------------------------------------------------------
+h1, h2, h3 {
+  font-family: $script-font;
+  font-weight: 400;
+  color: $charcoal;
+}
+
+h1.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+p, li {
+  font-family: $serif-font;
+  line-height: 1.7;
+}
+
+a {
+  color: $charcoal;
+  &:hover {
+    color: $muted-gray;
+  }
+}
