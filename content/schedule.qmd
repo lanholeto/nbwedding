@@ -1,5 +1,5 @@
 ---
-title: "Schedule"
+title: "Wedding Schedule"
 back-to-top-navigation: false
 format:
   html:
