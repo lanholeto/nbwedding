@@ -462,6 +462,61 @@ main.content {
 }
 
 // ---------------------------------------------------------------
+// Our Story photo marquee (28 photos, auto-scrolling continuously —
+// pure CSS animation, no JS libraries needed)
+// ---------------------------------------------------------------
+.story-gallery {
+  margin: 3rem 0 5rem;
+ 
+  .marquee-wrapper {
+    overflow: hidden;
+    width: 100%;
+ 
+    // Fade the edges so photos entering/leaving don't look abrupt
+    mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+  }
+ 
+  .marquee-track {
+    display: flex;
+    width: max-content;
+    animation: story-marquee 60s linear infinite;
+ 
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+ 
+  .marquee-item {
+    flex: 0 0 auto;
+    width: 260px;
+    height: 320px;
+    margin-right: 1rem;
+ 
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+}
+ 
+// The track contains the photo list twice back-to-back (see .qmd),
+// so translating exactly -50% loops seamlessly with no visible jump.
+@keyframes story-marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+ 
+@media (max-width: 768px) {
+  .story-gallery .marquee-item {
+    width: 180px;
+    height: 220px;
+  }
+}
+
+// ---------------------------------------------------------------
 // Our Story page — alternating image/text blocks
 // ---------------------------------------------------------------
 .story-intro,

@@ -20,8 +20,6 @@ Please RSVP by <strong>June 1, 2027</strong> so we can finalize seating and cate
 ::: rsvp-form-wrapper
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_J_WEcAoo7ZqpjGk0KrEPSbqCobZzhrEkYVospH79JYJIVA/viewform?embedded=true" width="640" height="1402" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
-Loading…
-
 </iframe>
 :::
 
