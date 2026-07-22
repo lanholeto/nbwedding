@@ -1,5 +1,4 @@
 ---
-title: "Nicoletta & Burc"
 back-to-top-navigation: false
 format:
   html:

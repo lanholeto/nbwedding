@@ -43,12 +43,13 @@ body {
 // ---------------------------------------------------------------
 .navbar-title,
 .navbar-brand {
-  font-family: $sans-font;
+  font-family: $script-font;
   font-weight: 400;
-  font-size: 1.6rem;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
+  font-size: 2.8rem;
+  letter-spacing: 0.02em;
+  text-transform: none;
   color: $charcoal;
+  margin-bottom: 0.75rem;
 }
 
 // Optional thin script accent under the main title/logo,
@@ -70,6 +71,18 @@ body {
   border-bottom: 1px solid #eee;
   padding-top: 1.75rem;
   padding-bottom: 1.5rem;
+
+  .navbar-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-brand-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0.75rem;
+  }
 
   .navbar-nav {
     justify-content: center;
@@ -265,15 +278,14 @@ main.content {
       margin-bottom: 1.5rem;
     }
 
+    text-align: center;
+
     strong {
-      display: block;
       font-family: $sans-font;
       font-weight: 600;
-      font-size: 1rem;
       letter-spacing: 0.05em;
       text-transform: uppercase;
       color: $charcoal;
-      margin-bottom: 0.4rem;
     }
   }
 
@@ -576,7 +588,7 @@ h1, h2, h3 {
 h1.title {
   font-family: $script-font;
   font-weight: 400;
-  font-size: 3.5rem;
+  font-size: 2.3rem;
   letter-spacing: 0.02em;
   text-transform: none;
   text-align: center;
