@@ -24,7 +24,11 @@ website:
         text: Travel
       - href: content/rsvp.qmd
         text: RSVP
-
+        
+  page-footer:
+    center: |
+      © 2026 &middot; Made with {{< bi heart-fill >}} and 
+      [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/) by Luis Anholeto
 format:
   html:
     theme:
