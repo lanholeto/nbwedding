@@ -66,10 +66,6 @@ We thought it was just another dinner with friends — Burc had mentioned they'd
 :::
 :::::
 
-::: story-closing
-And now, we can't wait to celebrate the next chapter with the people we love most.
-:::
-
 ::: {.story-gallery}
 <div class="marquee-wrapper">
 <div class="marquee-track">
@@ -131,4 +127,8 @@ And now, we can't wait to celebrate the next chapter with the people we love mos
 <div class="marquee-item"><img src="images/gallery-28.jpeg" alt="Photo 28"></div>
 </div>
 </div>
+:::
+
+::: story-closing
+And now, we can't wait to celebrate the next chapter with the people we love most.
 :::
