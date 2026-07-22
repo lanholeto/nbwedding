@@ -13,12 +13,12 @@ We can't wait to celebrate with you.
 
 <p class="rsvp-note">
 
-Please RSVP by <strong>June 1, 2027</strong> so we can finalize seating and catering. If you have any questions in the meantime, reach out any time — details on our <a href="content/faqs.qmd">FAQs</a> page.
+Please RSVP by <strong>June 1, 2027</strong> so we can finalize seating and catering. If you have any questions in the meantime, reach out any time.
 
 </p>
 
 ::: rsvp-form-wrapper
-<iframe src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true" loading="lazy">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_J_WEcAoo7ZqpjGk0KrEPSbqCobZzhrEkYVospH79JYJIVA/viewform?embedded=true" width="640" height="1402" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 Loading…
 
@@ -27,7 +27,7 @@ Loading…
 
 <p class="rsvp-fallback">
 
-Having trouble with the form above? You can also <a href="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform" target="_blank">open it in a new tab</a>.
+Having trouble with the form above? You can also <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_J_WEcAoo7ZqpjGk0KrEPSbqCobZzhrEkYVospH79JYJIVA/viewform?usp=header" target="_blank">open it in a new tab</a>.
 
 </p>
 :::::

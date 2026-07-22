@@ -12,33 +12,29 @@ Every love story is beautiful, but ours is our favorite.
 
 ::::: story-block
 ::: story-image
-![](images/IMG_4564.jpeg){fig-align="center"} <!-- Replace with your own photo — recommended size 1000x1200px (portrait) -->
+![](images/IMG_8325.jpg){fig-align="center"} <!-- Replace with your own photo — recommended size 1000x1200px (portrait) -->
 :::
 
 ::: story-text
-[2019]{.story-year}
+[February 2023]{.story-year}
 
 ### How We Met
 
-It was a rainy Tuesday in October when Nicoletta walked into the campus coffee shop fifteen minutes late for a study group neither of them really needed. Burc had already ordered her favorite drink by accident, mistaking her for someone else — and somehow that mix-up turned into a three-hour conversation about everything except the material they were supposed to be reviewing.
-
-Neither of them remembers a single thing from that exam. They remember everything about that conversation.
+It was one of those university events where you expect polite small talk and nothing more — until a friend introduced Nicoletta to Burc, and somehow the rest of the night disappeared. We talked for hours, the kind of conversation that makes you forget to check the time, and when it finally ended, it felt too soon. Two days later, an email arrived — a simple invitation for coffee — but coffee turned into dinner, and dinner turned into hours more of talking, tucked into a corner of the Library Pub in Wolfville, as if neither of you wanted the night to end again. Looking back, that was the moment two strangers at a university event quietly became the start of something.
 :::
 :::::
 
 ::::: {.story-block .reverse}
 ::: story-image
-![](images/IMG_5136.jpeg){fig-align="center"} <!-- Replace with your own photo — recommended size 1000x1200px (portrait) -->
+![](images/d9d1c581-f00c-4b53-9cd2-e9250cd0ce35.JPG){fig-align="center"} <!-- Replace with your own photo — recommended size 1000x1200px (portrait) -->
 :::
 
 ::: story-text
-[2020]{.story-year}
+[2023]{.story-year}
 
 ### The First Adventure
 
-Their first real date was supposed to be dinner. It turned into a spontaneous road trip to the coast after Burc mentioned he'd never seen the ocean at sunrise. They drove through the night, arrived just as the sky turned pink, and sat on the hood of the car sharing gas-station coffee and a bag of half-melted chocolate.
-
-It became a tradition. Every anniversary since, they've found a new sunrise to watch together.
+For our first real adventure together, we escaped to a quiet cottage on a lake near Annapolis Royal, wrapped in the stillness of an Easter holiday. The days moved slowly and sweetly — wandering through the natural landscape hand in hand, tasting our way through Scottish flavors, and losing track of time over board games that turned into laughter-filled competitions. Evenings folded into cozy nights, movies glowing on the screen while popcorn and ice cream disappeared between shared glances. It was simple, unhurried, and completely ours — the kind of trip that quietly taught us how easy it was to be happy together.
 :::
 :::::
 
@@ -48,13 +44,11 @@ It became a tradition. Every anniversary since, they've found a new sunrise to w
 :::
 
 ::: story-text
-[2023]{.story-year}
+[2024]{.story-year}
 
 ### Building a Life Together
 
-Between long work weeks, weekend hikes, and a small apartment that always somehow had too many houseplants, they built something steady and real. They learned each other's coffee orders, favorite songs, and the exact right amount of space to give each other after a hard day.
-
-Somewhere in the middle of all that ordinary, everyday life, they realized they'd found something extraordinary.
+Between lectures and long days in university, we found something rare: a partnership that felt like it lived both inside and outside the classroom. As university professors, we understood each other's world in a way few others could. But it was outside those walls where we truly came alive together, chasing a passion for travel that turned every year into a new chapter. Since the night we met, we've wandered the cobblestone streets of Prague, lost ourselves in the vibrant chaos of Turkey, danced through the warmth of Brazil, and savored the golden light of Portugal. We've stood beneath cherry blossoms in Japan, shared plates of pasta in Italy, swum in the impossibly blue waters of Greece, explored the sun-soaked flavors of Mexico, and drifted through the turquoise calm of the Bahamas. In the US, Miami became our own — a city of warm nights and easy rhythm we returned to like an old friend. Each place taught us something new — not just about the world, but about each other — and with every stamp in our passports, we built something more than memories. We built a life stitched together by curiosity, discovery, and the quiet joy of exploring it all side by side.
 :::
 :::::
 
@@ -64,16 +58,109 @@ Somewhere in the middle of all that ordinary, everyday life, they realized they'
 :::
 
 ::: story-text
-[2026]{.story-year}
+[June 3, 2026]{.story-year}
 
 ### The Proposal
 
-On a quiet evening walk along the same coastline from their first trip together, Burc got down on one knee just as the sun dipped below the horizon — the same sunrise-chasing spirit that had defined their whole relationship, now closing the loop at sunset.
-
-Nicoletta said yes before he even finished the question.
+We thought it was just another dinner with friends — Burc had mentioned they'd be joining us, and I thought nothing of it as we made our way to a beautiful restaurant in Palermo, perched above the sea. The view alone was breathtaking, golden light spilling across the water as the evening settled in. But as we sat down, Burc explained that our friends had cancelled at the last minute — a small disappointment that quickly dissolved into something else entirely, though I had no idea yet just how intentional that "cancellation" had been. Then, as dinner came to its quiet, perfect end, Burc rose from the table and knelt before me, speaking the words in Italian, his voice steady despite the moment trembling around us. He reached into his pocket and drew out the ring, and in his other hand, a bouquet of red roses waited, as if even he couldn't decide which to offer first. In that instant, Palermo, the sea, the candlelight — all of it faded into the background of the only thing that mattered: saying yes to forever with him.
 :::
 :::::
 
 ::: story-closing
 And now, we can't wait to celebrate the next chapter with the people we love most.
 :::
+
+::::: story-gallery
+:::: {#storyCarousel .carousel .slide data-bs-ride="carousel"}
+::: carousel-inner
+```         
+<div class="carousel-item active">
+  <img src="images/gallery-1.jpg" class="d-block w-100" alt="Photo 1">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-2.jpg" class="d-block w-100" alt="Photo 2">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-3.jpg" class="d-block w-100" alt="Photo 3">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-4.jpg" class="d-block w-100" alt="Photo 4">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-5.jpg" class="d-block w-100" alt="Photo 5">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-6.jpg" class="d-block w-100" alt="Photo 6">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-7.jpg" class="d-block w-100" alt="Photo 7">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-8.jpg" class="d-block w-100" alt="Photo 8">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-9.jpg" class="d-block w-100" alt="Photo 9">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-10.jpg" class="d-block w-100" alt="Photo 10">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-11.jpg" class="d-block w-100" alt="Photo 11">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-12.jpg" class="d-block w-100" alt="Photo 12">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-13.jpg" class="d-block w-100" alt="Photo 13">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-14.jpg" class="d-block w-100" alt="Photo 14">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-15.jpg" class="d-block w-100" alt="Photo 15">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-16.jpg" class="d-block w-100" alt="Photo 16">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-17.jpg" class="d-block w-100" alt="Photo 17">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-18.jpg" class="d-block w-100" alt="Photo 18">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-19.jpg" class="d-block w-100" alt="Photo 19">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-20.jpg" class="d-block w-100" alt="Photo 20">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-21.jpg" class="d-block w-100" alt="Photo 21">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-22.jpg" class="d-block w-100" alt="Photo 22">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-23.jpg" class="d-block w-100" alt="Photo 23">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-24.jpg" class="d-block w-100" alt="Photo 24">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-25.jpg" class="d-block w-100" alt="Photo 25">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-26.jpg" class="d-block w-100" alt="Photo 26">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-27.jpg" class="d-block w-100" alt="Photo 27">
+</div>
+<div class="carousel-item">
+  <img src="images/gallery-28.jpg" class="d-block w-100" alt="Photo 28">
+</div>
+```
+:::
+
+<button class="carousel-control-prev" type="button" data-bs-target="#storyCarousel" data-bs-slide="prev"> [Previous]{.visually-hidden} </button> <button class="carousel-control-next" type="button" data-bs-target="#storyCarousel" data-bs-slide="next"> [Next]{.visually-hidden} </button>
+::::
+:::::
