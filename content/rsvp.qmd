@@ -6,7 +6,7 @@ format:
     page-layout: full
 ---
 
-::::: rsvp-page
+:::: rsvp-page
 ::: rsvp-intro
 We can't wait to celebrate with you.
 :::
@@ -16,9 +16,20 @@ We can't wait to celebrate with you.
 Please RSVP by <strong>June 1, 2027</strong> so we can finalize seating and catering. If you have any questions in the meantime, reach out any time.
 
 </p>
+::::
+
+::: rsvp-page
+Our wedding registry will be available soon! In lieu of traditional gifts, we're kindly asking for contributions toward our honeymoon — helping us create memories we'll cherish for a lifetime.
+:::
+
+:::: rsvp-page
 
 ::: rsvp-form-wrapper
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_J_WEcAoo7ZqpjGk0KrEPSbqCobZzhrEkYVospH79JYJIVA/viewform?embedded=true" width="640" height="1402" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_J_WEcAoo7ZqpjGk0KrEPSbqCobZzhrEkYVospH79JYJIVA/viewform?embedded=true" width="640" height="1402" frameborder="0" marginheight="0" marginwidth="0">
+
+Loading…
+
+</iframe>
 
 </iframe>
 :::
@@ -28,4 +39,4 @@ Please RSVP by <strong>June 1, 2027</strong> so we can finalize seating and cate
 Having trouble with the form above? You can also <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_J_WEcAoo7ZqpjGk0KrEPSbqCobZzhrEkYVospH79JYJIVA/viewform?usp=header" target="_blank">open it in a new tab</a>.
 
 </p>
-:::::
+::::
