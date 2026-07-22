@@ -8,7 +8,7 @@ format:
 
 :::: rsvp-page
 ::: rsvp-intro
-We can't wait to celebrate with you.
+We can't wait to celebrate our wedding day with you.
 :::
 
 <p class="rsvp-note">

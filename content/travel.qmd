@@ -15,7 +15,7 @@ format:
 ::: travel-section
 **By Air**
 
-The closest airport is **Halifax Stanfield International Airport (YHZ)**, about a 50-minute drive from Wolfville, Nova Scotia. Most major Canadian carriers fly into Halifax, with direct connections from Toronto and Montreal.
+The closest airport is **Halifax Stanfield International Airport (YHZ)**, about a 50-minute drive from Wolfville, Nova Scotia.
 
 **By Car**
 

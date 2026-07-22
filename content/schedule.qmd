@@ -7,6 +7,8 @@ format:
 ---
 
 :::: schedule-page
+WEDDING DAY
+
 [THURSDAY, JULY 15, 2027]{.schedule-date}
 
 ### Join us to celebrate this special day with family and friends.
