@@ -66,69 +66,236 @@ I thought it was just another dinner with friends — Burc had mentioned they'd 
 :::
 :::::
 
-::: {.story-gallery}
-<div class="marquee-wrapper">
-<div class="marquee-track">
-<div class="marquee-item"><img src="images/gallery-1.jpeg" alt="Photo 1"></div>
-<div class="marquee-item"><img src="images/gallery-2.jpeg" alt="Photo 2"></div>
-<div class="marquee-item"><img src="images/gallery-3.jpeg" alt="Photo 3"></div>
-<div class="marquee-item"><img src="images/gallery-4.jpeg" alt="Photo 4"></div>
-<div class="marquee-item"><img src="images/gallery-5.jpeg" alt="Photo 5"></div>
-<div class="marquee-item"><img src="images/gallery-6.jpeg" alt="Photo 6"></div>
-<div class="marquee-item"><img src="images/gallery-7.jpeg" alt="Photo 7"></div>
-<div class="marquee-item"><img src="images/gallery-8.jpeg" alt="Photo 8"></div>
-<div class="marquee-item"><img src="images/gallery-9.jpeg" alt="Photo 9"></div>
-<div class="marquee-item"><img src="images/gallery-10.jpeg" alt="Photo 10"></div>
-<div class="marquee-item"><img src="images/gallery-11.jpeg" alt="Photo 11"></div>
-<div class="marquee-item"><img src="images/gallery-12.jpeg" alt="Photo 12"></div>
-<div class="marquee-item"><img src="images/gallery-13.jpeg" alt="Photo 13"></div>
-<div class="marquee-item"><img src="images/gallery-14.jpeg" alt="Photo 14"></div>
-<div class="marquee-item"><img src="images/gallery-15.jpeg" alt="Photo 15"></div>
-<div class="marquee-item"><img src="images/gallery-16.jpeg" alt="Photo 16"></div>
-<div class="marquee-item"><img src="images/gallery-17.jpeg" alt="Photo 17"></div>
-<div class="marquee-item"><img src="images/gallery-18.jpeg" alt="Photo 18"></div>
-<div class="marquee-item"><img src="images/gallery-19.jpeg" alt="Photo 19"></div>
-<div class="marquee-item"><img src="images/gallery-20.jpeg" alt="Photo 20"></div>
-<div class="marquee-item"><img src="images/gallery-21.jpeg" alt="Photo 21"></div>
-<div class="marquee-item"><img src="images/gallery-22.jpeg" alt="Photo 22"></div>
-<div class="marquee-item"><img src="images/gallery-23.jpeg" alt="Photo 23"></div>
-<div class="marquee-item"><img src="images/gallery-24.jpeg" alt="Photo 24"></div>
-<div class="marquee-item"><img src="images/gallery-25.jpeg" alt="Photo 25"></div>
-<div class="marquee-item"><img src="images/gallery-26.jpeg" alt="Photo 26"></div>
-<div class="marquee-item"><img src="images/gallery-27.jpeg" alt="Photo 27"></div>
-<div class="marquee-item"><img src="images/gallery-28.jpeg" alt="Photo 28"></div>
-<div class="marquee-item"><img src="images/gallery-1.jpeg" alt="Photo 1"></div>
-<div class="marquee-item"><img src="images/gallery-2.jpeg" alt="Photo 2"></div>
-<div class="marquee-item"><img src="images/gallery-3.jpeg" alt="Photo 3"></div>
-<div class="marquee-item"><img src="images/gallery-4.jpeg" alt="Photo 4"></div>
-<div class="marquee-item"><img src="images/gallery-5.jpeg" alt="Photo 5"></div>
-<div class="marquee-item"><img src="images/gallery-6.jpeg" alt="Photo 6"></div>
-<div class="marquee-item"><img src="images/gallery-7.jpeg" alt="Photo 7"></div>
-<div class="marquee-item"><img src="images/gallery-8.jpeg" alt="Photo 8"></div>
-<div class="marquee-item"><img src="images/gallery-9.jpeg" alt="Photo 9"></div>
-<div class="marquee-item"><img src="images/gallery-10.jpeg" alt="Photo 10"></div>
-<div class="marquee-item"><img src="images/gallery-11.jpeg" alt="Photo 11"></div>
-<div class="marquee-item"><img src="images/gallery-12.jpeg" alt="Photo 12"></div>
-<div class="marquee-item"><img src="images/gallery-13.jpeg" alt="Photo 13"></div>
-<div class="marquee-item"><img src="images/gallery-14.jpeg" alt="Photo 14"></div>
-<div class="marquee-item"><img src="images/gallery-15.jpeg" alt="Photo 15"></div>
-<div class="marquee-item"><img src="images/gallery-16.jpeg" alt="Photo 16"></div>
-<div class="marquee-item"><img src="images/gallery-17.jpeg" alt="Photo 17"></div>
-<div class="marquee-item"><img src="images/gallery-18.jpeg" alt="Photo 18"></div>
-<div class="marquee-item"><img src="images/gallery-19.jpeg" alt="Photo 19"></div>
-<div class="marquee-item"><img src="images/gallery-20.jpeg" alt="Photo 20"></div>
-<div class="marquee-item"><img src="images/gallery-21.jpeg" alt="Photo 21"></div>
-<div class="marquee-item"><img src="images/gallery-22.jpeg" alt="Photo 22"></div>
-<div class="marquee-item"><img src="images/gallery-23.jpeg" alt="Photo 23"></div>
-<div class="marquee-item"><img src="images/gallery-24.jpeg" alt="Photo 24"></div>
-<div class="marquee-item"><img src="images/gallery-25.jpeg" alt="Photo 25"></div>
-<div class="marquee-item"><img src="images/gallery-26.jpeg" alt="Photo 26"></div>
-<div class="marquee-item"><img src="images/gallery-27.jpeg" alt="Photo 27"></div>
-<div class="marquee-item"><img src="images/gallery-28.jpeg" alt="Photo 28"></div>
-</div>
-</div>
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: story-gallery
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: marquee-wrapper
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: marquee-track
+::: marquee-item
+<img src="images/gallery-1.jpeg" alt="Photo 1"/>
 :::
 
+::: marquee-item
+<img src="images/gallery-2.jpeg" alt="Photo 2"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-3.jpeg" alt="Photo 3"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-4.jpeg" alt="Photo 4"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-5.jpeg" alt="Photo 5"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-6.jpeg" alt="Photo 6"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-7.jpeg" alt="Photo 7"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-8.jpeg" alt="Photo 8"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-9.jpeg" alt="Photo 9"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-10.jpeg" alt="Photo 10"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-11.jpeg" alt="Photo 11"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-12.jpeg" alt="Photo 12"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-13.jpeg" alt="Photo 13"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-14.jpeg" alt="Photo 14"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-15.jpeg" alt="Photo 15"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-16.jpeg" alt="Photo 16"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-17.jpeg" alt="Photo 17"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-18.jpeg" alt="Photo 18"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-19.jpeg" alt="Photo 19"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-20.jpeg" alt="Photo 20"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-21.jpeg" alt="Photo 21"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-22.jpeg" alt="Photo 22"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-23.jpeg" alt="Photo 23"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-24.jpeg" alt="Photo 24"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-25.jpeg" alt="Photo 25"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-26.jpeg" alt="Photo 26"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-27.jpeg" alt="Photo 27"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-28.jpeg" alt="Photo 28"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-1.jpeg" alt="Photo 1"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-2.jpeg" alt="Photo 2"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-3.jpeg" alt="Photo 3"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-4.jpeg" alt="Photo 4"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-5.jpeg" alt="Photo 5"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-6.jpeg" alt="Photo 6"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-7.jpeg" alt="Photo 7"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-8.jpeg" alt="Photo 8"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-9.jpeg" alt="Photo 9"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-10.jpeg" alt="Photo 10"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-11.jpeg" alt="Photo 11"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-12.jpeg" alt="Photo 12"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-13.jpeg" alt="Photo 13"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-14.jpeg" alt="Photo 14"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-15.jpeg" alt="Photo 15"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-16.jpeg" alt="Photo 16"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-17.jpeg" alt="Photo 17"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-18.jpeg" alt="Photo 18"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-19.jpeg" alt="Photo 19"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-20.jpeg" alt="Photo 20"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-21.jpeg" alt="Photo 21"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-22.jpeg" alt="Photo 22"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-23.jpeg" alt="Photo 23"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-24.jpeg" alt="Photo 24"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-25.jpeg" alt="Photo 25"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-26.jpeg" alt="Photo 26"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-27.jpeg" alt="Photo 27"/>
+:::
+
+::: marquee-item
+<img src="images/gallery-28.jpeg" alt="Photo 28"/>
+:::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::: story-closing
-And now, we can't wait to celebrate the next chapter with the people we love most. We're getting married!
+And now, we can't wait to celebrate the next chapter with the people we love most. **We're getting married!**
 :::
