@@ -25,7 +25,7 @@
     "href": "content/schedule.html",
     "title": "Wedding Schedule",
     "section": "",
-    "text": "WEDDING DAY\nTHURSDAY, JULY 15, 2027\n\nJoin us to celebrate this special day with family and friends.\n5:30 pm guest arrival\n6:00 pm ceremony\n6:30-7:30 cocktail\n7:30-9:00 pm dinner\n9:00-12:00 dancing\n12:30 am end\nLightfoot & Wolfville Vineyards\n11143 Nova Scotia Trunk 1, Wolfville, NS B4P 2R2, Canada\nWear what makes you feel comfortable.\nAfter the ceremony there will be a cocktail hour with light bites, followed by dinner among the vines. At the end of the night the celebration continues with dancing and drinks.\n\nMap Add to Calendar\n\n\n\n\n\n\nSource: https://winesofnovascotia.ca"
+    "text": "WEDDING DAY\nTHURSDAY, JULY 15, 2027\n###Join us to celebrate this special day with family and friends.\nLightfoot & Wolfville Vineyards\n11143 Nova Scotia Trunk 1, Wolfville, NS B4P 2R2, Canada\nWear what makes you feel comfortable.\nAfter the ceremony there will be a cocktail hour with light bites, followed by dinner among the vines. At the end of the night the celebration continues with dancing and drinks.\n###Schedule\n5:30 pm guest arrival\n6:00 pm ceremony\n6:30-7:30 cocktail\n7:30-9:00 pm dinner\n9:00-12:00 dancing\n12:30 am end\n\nMap Add to Calendar\n\n\n\n\n\nSource: https://winesofnovascotia.ca"
   },
   {
     "objectID": "content/rsvp.html",
@@ -61,5 +61,12 @@
     "title": "Travel & Where to Stay",
     "section": "",
     "text": "Wolfville is a small, walkable town, but the wedding venue is a short drive outside the downtown core. We’d suggest renting a car for the weekend, though we’re also happy to help coordinate carpools — just reach out if you’d like to be connected with other guests staying nearby."
+  },
+  {
+    "objectID": "content/schedule.html#schedule",
+    "href": "content/schedule.html#schedule",
+    "title": "Wedding Schedule",
+    "section": "",
+    "text": "5:30 pm guest arrival\n6:00 pm ceremony\n6:30-7:30 cocktail\n7:30-9:00 pm dinner\n9:00-12:00 dancing\n12:30 am end\n\nMap Add to Calendar"
   }
 ]
